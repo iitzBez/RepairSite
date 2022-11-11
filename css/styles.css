@@ -172,3 +172,9 @@ margin-bottom: 70px;
   border-radius: 12px;
   cursor: pointer;
 }
+
+.btn:hover
+{
+  background-color: #E4F9F5;
+  color: #11999E;
+}
