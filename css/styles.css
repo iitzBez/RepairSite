@@ -1,32 +1,58 @@
+
+/*-----------------------Element Tags--------------------*/
+
 body
 {
   margin: 0;
   text-align: center;
   position: relative;
   font-family: 'Merriweather', serif;
-  background-color: #D6E4E5;
 }
 
 h1
 {
-margin-top: 0;
+margin: 50px auto 0 auto;
 font-family: 'Sacramento', cursive;
+font-size: 5.625rem;
+color: #66BFBF;
+line-height: 5rem;
 }
 
 h2
 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h3
 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #11999E;
 }
 
 p
 {
 margin-top: 0;
 }
+
+a
+{
+  color: #11999E;
+}
+
+html
+{
+  margin-bottom: 0;
+}
+
+
+
+
+
+/*-----------------------Class Tags--------------------*/
 
 .top-container
 {
@@ -37,24 +63,34 @@ margin-top: 0;
 
 .middle-container
 {
-
+  background-color: #D6E4E5;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .bottom-container
 {
-
+  background-color: #E4F9F5;
+  height: 70px;
+  margin-bottom: 0;
 }
+
+.skills
+{
+  padding-top: 50px;
+}
+
 
 .laptop-img
 {
-height: 140px;
-width: 140px;
+width: 25%;
+float: left;
 }
 
 .software-img
 {
-  height: 140px;
-  width: 200px;
+width: 25%;
+float: right;
 }
 
 .sub-title
@@ -76,23 +112,63 @@ text-decoration: underline;
   top: 50px;
 }
 
-
-
-
-
-
-
-/*
-.Middle
+.skill-row
 {
-  background-color: Red;
-  width: 200px;
-  height: 200px;
+  width: 50%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+  line-height: 2;
 }
 
-.Bottom
+.hr1
 {
-  background-color: Blue;
-  width: 200px;
-  height: 200px;
+color: DarkGrey;
+border-style: none;
+border-top-style: dotted;
+border-width: 5px;
+width: 4%;
+margin-top: 100px;
+}
+
+.hr2
+{
+color: DarkGrey;
+border-style: none;
+border-top-style: dotted;
+border-width: 5px;
+width: 4%;
+margin-bottom: 70px;
+}
+
+
+.footer-link
+{
+  display: inline-block;
+  color: #11999E;
+  margin: 12.5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.copyright
+{
+  margin-top: 10px;
+  margin: 0;
+  font-size: 12px;
+}
+
+.btn
+{
+  background-color: #11999E;
+  color: #E4F9F5;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 30px;
+  height: auto;
+  width: auto;
+  border-radius: 12px;
+  cursor: pointer;
 }
